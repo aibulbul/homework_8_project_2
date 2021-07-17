@@ -1,0 +1,271 @@
+@font-face{
+    font-family: PTSans-Regular;
+    src: url(../fonts/pt_sans/PTSans-Regular.ttf);
+}
+@font-face{
+    font-family: PTSans-Bold;
+    src: url(../fonts/pt_sans/PTSans-Bold.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: PTSans-Regular;
+    font-weight: 400;
+    font-size: 16px
+}
+/*header start*/
+header{
+    background-color: #FCDB00;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 0;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.l-img{
+    float: left;
+}
+.l-img img{
+    width: 100%;
+}
+.logo span{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+.menu{
+    width: 42%;
+    float: right;
+}
+.menu ul{
+    float: right;
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    margin: 0 20px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.menu ul li a:hover{
+    color: white;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    background-color: #FCDB00;
+    padding-bottom: 70px;
+}
+.c-left{
+    margin-top: 100px;
+    overflow: hidden;
+    width: 40%;
+    text-align: left;
+    float: left;
+}
+.c-left h1{
+    margin-top: 0;
+    font-size: 32px;
+}
+.c-left h2{
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.c-left p{
+    margin: 30px 0;
+    word-spacing: 6px;
+}
+.i-img{
+    margin: 10px 40px 10px 0;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.i-img{}
+.c-right{
+    width: 40%;
+    padding-right: 40px;
+    float: right;
+}
+.c-right img{
+    width: 100%;
+}
+/*banner end*/
+/*features start*/
+.featurs{}
+.f-content{
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.f-content h1{
+    margin: 15px 0;
+    font-family: PTSans-Bold;
+    font-size: 32px;
+    text-align: center;
+}
+.f-content-p{
+    padding: 15px 0 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.features1{
+    padding: 40px 0;
+    width: 30%;
+    float: left;
+}
+.f-left{
+    width: 16%;
+    float: left;
+}
+.f-left img{
+    height: 42px;
+    padding-left: 0;
+}
+.f-right{
+    width: 76%;
+    float: right;
+    text-align: left;
+}
+.f-right h2{
+    margin-top: 0;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 400;
+}
+.f-right p{}
+
+.features1:nth-child(4){
+    float: right;
+    margin-right: 0;
+}
+.features1:last-child{
+    float: right;
+    margin-right: 0;
+}
+.features1:nth-child(5){
+    margin: 0 35px;
+}
+.features1:nth-last-child(2){
+    margin: 0 35px;
+}
+/*features end*/
+/*our touch start*/
+.our-touch{
+    background-color: black;
+}
+.container2{
+    width: 55%;
+    margin: 0 auto;
+    padding: 80px 30px 10px;
+}
+.container2 h1{
+    margin: 0;
+    color: yellow;
+    font-size: 32px;
+    text-align: center;
+}
+.container2 p{
+    margin-bottom: 43px;
+    color: #898989;
+    font-size: 20px;
+    text-align: center;
+}
+.input1{
+    padding: 15px 370px 15px 15px;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.button{
+    width: 120px;
+    height: 50px;
+    margin-left: 16px;
+    background-color: yellow;
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: PTSans-Bold;
+    font-weight: 500;
+    font-size: 16px
+}
+.button:hover{
+    background-color: white;
+}
+/*our touch end*/
+/*social media start*/
+.social-media{
+    min-height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+.s-content{
+    overflow: hidden;
+    text-align: center;
+}
+.s-content ul{
+    margin: 0 180px;
+}
+.s-content ul li{
+    list-style: none;
+    float: left;
+    padding: 0 20px;
+}
+.s-content ul li a{
+    text-decoration: none;
+}
+.s-img{
+    width: 42px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.s-img img{
+    height: 40px;
+}
+/*social media end*/
+/*footer start*/
+footer{
+    background-color: black;
+    padding-bottom: 100px;
+}
+.footer{
+    overflow: hidden;
+    border: 1px solid black;
+}
+.address{
+    margin: 10px 20px;
+    width: 25%;
+    float: left;
+    color: white;
+}
+.address address{}
+
+.f-box{
+    margin: -6px 10px ;
+    width: 15%;
+    float: left;
+}
+.f-box ul{
+    list-style: none;
+}
+.f-box ul li{}
+.f-box ul li a{
+    text-decoration: none;
+    color: white;
+}
+.f-box ul li a:hover{}
+/*footer end*/
